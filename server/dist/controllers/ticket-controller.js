@@ -4,6 +4,7 @@ import { User } from '../models/user.js';
 export const getAllTickets = async (_req, res) => {
     try {
         const tickets = await Ticket.findAll({
+            order: [['createdAt', 'DESC']],
             include: [
                 {
                     model: User,
