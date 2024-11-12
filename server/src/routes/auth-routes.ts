@@ -11,11 +11,13 @@ export const login = async (req: Request, res: Response) => {
     where: { username },
   });
   if (!user) {
-    return res.status(401).json({ message: 'Authentication failed' });
+    console.log('User not found');
+    return res.status(401).json({ message: 'Authentication failed' });    
   }
 
   const passwordIsValid = await bcrypt.compare(password, user.password);
   if (!passwordIsValid) {
+    console.log('Invalid password');
     return res.status(401).json({ message: 'Authentication failed' });
   }
 

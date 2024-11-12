@@ -9,10 +9,12 @@ export const login = async (req, res) => {
         where: { username },
     });
     if (!user) {
+        console.log('User not found');
         return res.status(401).json({ message: 'Authentication failed' });
     }
     const passwordIsValid = await bcrypt.compare(password, user.password);
     if (!passwordIsValid) {
+        console.log('Invalid password');
         return res.status(401).json({ message: 'Authentication failed' });
     }
     const secretKey = process.env.JWT_SECRET_KEY || '';
