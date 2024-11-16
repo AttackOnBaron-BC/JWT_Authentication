@@ -4,23 +4,13 @@
 - [Description](#description)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-  - [Frontend](#frontend)
-  - [Backend](#backend)
-  - [Deployment](#deployment)
+- [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Security Features](#security-features)
-  - [JWT Implementation](#jwt-implementation)
-  - [Session Management](#session-management)
 - [API Endpoints](#api-endpoints)
-  - [Authentication](#authentication)
-  - [Tasks](#tasks)
 - [User Stories](#user-stories)
 - [Acceptance Criteria](#acceptance-criteria)
-  - [Login Page](#login-page)
-  - [Authentication](#authentication-1)
-  - [Session Management](#session-management-1)
-  - [Security](#security)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#license)
@@ -48,6 +38,16 @@ This full-stack Kanban board application implements secure authentication using 
   - MongoDB (database)
 - Deployment:
   - Render
+ 
+## Demo
+You can directly visit the [Demo](https://jwt-authentication-vf2w.onrender.com/), and do not have to install it locally to your machine.
+
+Test account: 
+username: 'JollyGuru', password: 'password'
+![image](https://github.com/user-attachments/assets/ef75240a-8c26-4af5-bab3-70e636283460)
+![image](https://github.com/user-attachments/assets/3a769df8-f027-4c85-81de-1eb08cfd3eeb)
+![image](https://github.com/user-attachments/assets/c2297091-768e-4af9-93c7-c91150ad069e)
+
 
 ## Installation
 
