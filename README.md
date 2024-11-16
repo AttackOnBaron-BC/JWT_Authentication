@@ -1,5 +1,30 @@
 # Secure Kanban Board with JWT Authentication
 
+## Table of Contents
+- [Description](#description)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+  - [Frontend](#frontend)
+  - [Backend](#backend)
+  - [Deployment](#deployment)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Security Features](#security-features)
+  - [JWT Implementation](#jwt-implementation)
+  - [Session Management](#session-management)
+- [API Endpoints](#api-endpoints)
+  - [Authentication](#authentication)
+  - [Tasks](#tasks)
+- [User Stories](#user-stories)
+- [Acceptance Criteria](#acceptance-criteria)
+  - [Login Page](#login-page)
+  - [Authentication](#authentication-1)
+  - [Session Management](#session-management-1)
+  - [Security](#security)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
+  
 ## Description
 This full-stack Kanban board application implements secure authentication using JSON Web Tokens (JWT). Users can safely manage their work tasks through a protected interface that ensures data privacy and session management.
 
